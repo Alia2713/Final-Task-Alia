@@ -1,0 +1,7 @@
+program next;
+var
+  n:LongInt;
+begin
+  Read(n);
+  Write(abs(n) div 100 mod 10);
+end.
