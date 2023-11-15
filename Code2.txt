@@ -1,0 +1,7 @@
+program next;
+var
+  k:Word;
+begin
+  Read(k);
+  Write((k-1+6-1) mod 7+1);
+end.
